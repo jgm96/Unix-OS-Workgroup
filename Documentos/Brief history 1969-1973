@@ -14,7 +14,7 @@
  on an obsolete machine that had been designed to be a graphics terminal for a ‘real’ computer.
  
  Unix's first real job, in 1971, was to support what would now be called word processing for the Bell Labs patent department;
- the first Unix application was the ancestor of the nroff(1) text formatter.
+ the first Unix application was the ancestor of the nroff[2] text formatter.
  This project justified the purchase of a PDP-11, a much more capable minicomputer.
  
  The original Unix operating system was written in assembler, and the applications in a mix of assembler
