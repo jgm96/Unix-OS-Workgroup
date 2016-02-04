@@ -1,0 +1,31 @@
+ Unix began its life on a scavenged PDP-7 minicomputer, as a platform
+ for the Space Travel game and a testbed for Thompson's ideas about operating system design.
+ 
+ The utility programs that Thompson and Ritchie wrote to support hosting game
+ development on the PDP-7 itself became the core of Unix. The original spelling was “UNICS”
+ (UNiplexed Information and Computing Service).
+ 
+ Unix was very close to being the first system under which a programmer could sit down
+ directly at a machine and compose programs on the fly, exploring possibilities and testing while composing.
+ 
+ The Unix tradition of lightweight development and informal methods also began at its beginning.
+ While Multics[1] had been a large project with thousands of pages of technical specifications written before the hardware
+ arrived, the first running Unix code was brainstormed by three people and implemented by Ken Thompson in two days
+ on an obsolete machine that had been designed to be a graphics terminal for a ‘real’ computer.
+ 
+ Unix's first real job, in 1971, was to support what would now be called word processing for the Bell Labs patent department;
+ the first Unix application was the ancestor of the nroff(1) text formatter.
+ This project justified the purchase of a PDP-11, a much more capable minicomputer.
+ 
+ The original Unix operating system was written in assembler, and the applications in a mix of assembler
+ and an interpreted language called B, which had the virtue that it was small enough to run on the PDP-7.
+ But B was not powerful enough for systems programming, so Dennis Ritchie added data types and structures to it.
+ The resulting C language evolved from B beginning in 1971; in 1973 Thompson and Ritchie finally
+ succeeded in rewriting Unix in their new language.
+ 
+ *1 (Multiplexed Information and Computing Service) fue uno de los primeros sistemas operativos de tiempo compartido y
+    tuvo una gran influencia en el desarrollo de los posteriores sistemas operativos.
+ *2 nroff (abreviación de "new roff" o "nuevo roff") es un programa de formateo de textos de Unix que produce una salida adecuada
+    para el formato de impresoras y ventanas de terminales
+  
+  
