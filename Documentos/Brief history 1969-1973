@@ -23,9 +23,43 @@
  The resulting C language evolved from B beginning in 1971; in 1973 Thompson and Ritchie finally
  succeeded in rewriting Unix in their new language.
  
- *1 (Multiplexed Information and Computing Service) fue uno de los primeros sistemas operativos de tiempo compartido y
-    tuvo una gran influencia en el desarrollo de los posteriores sistemas operativos.
- *2 nroff (abreviación de "new roff" o "nuevo roff") es un programa de formateo de textos de Unix que produce una salida adecuada
-    para el formato de impresoras y ventanas de terminales
-  
-  
+ In the following years, UNIX was starting to get known especially due to a report published in the Communications of the ACM
+ magazine[3] in 1974. It defined UNIX as "a general-purpose, multi-user, interactive operating system" and it offered "a number of
+ features seldom found even in larger operating systems", giving as an example "a hierarchical file system", "the abilty
+ to initiate asynchronous processes", a "system command language selectable on a per-user basis"...
+ The report focused on the nature and the implementation of the file system and the command interfaces.
+ It also referred to the hardware on which UNIX ran, which only had 144 Kbytes of core memory where 42 were used by UNIX.
+ 
+ As soon as people knew that this OS had the capability of doing the things written on the report, lots of
+ entities (universitites, research laboratories...) wanted to try UNIX. The problem was that in 1958 a decree stated that
+ AT&T (the parent company of Bell Labs.) had been forbidden from entering the computer business, so UNIX couldn't be turned
+ into a product. And according to some terms of the decree, Bell Labs had to license their products to everyone who asked.
+ That was the reason why UNIX started to expand out of the AT&T corporation.
+ 
+ Although the OS was free, the problem was the price of the hardware to ran it which was not especially cheap (around 40.000$).
+ All over the world UNIX surprised people which tried it and people also made amazing things with this OS.
+ Douglas Comer (a computing sciences' professor at Purdue University) gave some examples of achievements some people got:
+  - "At Yale University, students and computer scientists modified the UNIX shell".
+  - At Purdue University some departments made changes that allowed UNIX to handle a larger number of users.
+  - At Purdue they had also created one of the first UNIX computer networks.
+ 
+ At 1979 UNIX released Version 7. This was the first approach to the current UNIX systems, so any programmer using
+ UNIX nowadays could perfectly understand anything which was on the Version 7. Some years before this, UNIX had already
+ expanded all over the world, it came as far away as Australia, where John Lions (a computer scientist) developed
+ the first serious kernel documentation for the Version 6. It was a highly valued thing for hackers, so many copies
+ of this documentation were stolen from his computer. Due to some copyright problems, this documentation was illegal
+ on the U.S.
+ 
+ Everything was going perfect[4] until 1980, when Microsoft started selling a port of the AT&T UNIX version called XENIX[5].
+ 
+ 
+ *1 (Multiplexed Information and Computing Service) was one of the first time-sharing operating systems and it
+    had a great impact in the development of the following operating systems.
+ *2 nroff (abbreviation of "new roff") text-formatting program from UNIX that returns a suitable output
+    for the format of printers and terminal windows.
+ *3 link: http://bit.ly/1NYCwjT  
+ 
+ *4 At 1978, Santa Cruz Operation (SCO) was built as the first Unix company, and the first commercial C
+    compiler (WhiteSmith) was sold that same year.
+ *5 It was a UNIX based operating system developed by Microsoft from a early UNIX license bought to AT&T.
+    It used that name because Microsoft wasn't able to use the UNIX name.
