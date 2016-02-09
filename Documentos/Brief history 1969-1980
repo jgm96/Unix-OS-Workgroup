@@ -42,6 +42,10 @@
   - "At Yale University, students and computer scientists modified the UNIX shell".
   - At Purdue University some departments made changes that allowed UNIX to handle a larger number of users.
   - At Purdue they had also created one of the first UNIX computer networks.
+ Probably the most important work was the one carried out in Berkeley campus of California University. In 1977 it was released
+ the first BSD (Berkeley Software Distribution) from a lab in charge of a student called Bill Joy (in those days
+ he was just a student, but 5 years after he would become one of the co-founders of Sun Microsystems). Due to this fact,
+ Berkeley became the main university related with UNIX development.
  
  At 1979 UNIX released Version 7. This was the first approach to the current UNIX systems, so any programmer using
  UNIX nowadays could perfectly understand anything which was on the Version 7. Some years before this, UNIX had already
@@ -50,7 +54,17 @@
  of this documentation were stolen from his computer. Due to some copyright problems, this documentation was illegal
  on the U.S.
  
- Everything was going perfect[4] until 1980, when Microsoft started selling a port of the AT&T UNIX version called XENIX[5].
+ Everything was going perfect[4] until 1980, when Microsoft decided to start selling a port of the AT&T UNIX version
+ called XENIX[5]. Apart from that, that year was the most important for the UNIX history. Berkeley UNIX (BSD) was the chosen
+ platform by DARPA[6] to renew the communication system known as ARPANET, because it was aging. The first option was DEC company
+ (Digital Equipment Corporation) but they rejected it because DEC refused to make changes in their OS which was included
+ with the machine VAX (the OS was called VMS).
+ 
+ The renewing process was horrible before TCP/IP was finally released. UNIX tried unsuccesfully with Ethernet and UUCP[7],
+ there were neither FTP nor Telnet... It was not easy to Dennis Ritchie to develop an open communication because his opinion
+ was that computers should "encourage closed communication", that was completely opposite to ARPANETters opinion, which
+ were starting to think that UNIX was not a good option. Finally, the development of Berkeley 4.2 version which included
+ the TCP/IP hepled DARPA and AT&T to start sharing common opinons. It seemed that anything could go wrong
  
  
  *1 (Multiplexed Information and Computing Service) was one of the first time-sharing operating systems and it
@@ -58,8 +72,10 @@
  *2 nroff (abbreviation of "new roff") text-formatting program from UNIX that returns a suitable output
     for the format of printers and terminal windows.
  *3 link: http://bit.ly/1NYCwjT  
- 
  *4 At 1978, Santa Cruz Operation (SCO) was built as the first Unix company, and the first commercial C
     compiler (WhiteSmith) was sold that same year.
  *5 It was a UNIX based operating system developed by Microsoft from a early UNIX license bought to AT&T.
-    It used that name because Microsoft wasn't able to use the UNIX name.
+    They used that name because Microsoft wasn't able to use the UNIX name.
+ *6 Defense Advanced Research Projects Agency is an agency of the U.S. Department of Defense responsible for the
+    development of emerging technologies for use by the military. This agency was in charge of using the ARPANET,
+    which was the first approach to what nowadays we know as Internet.
