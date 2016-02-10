@@ -64,7 +64,25 @@
  there were neither FTP nor Telnet... It was not easy to Dennis Ritchie to develop an open communication because his opinion
  was that computers should "encourage closed communication", that was completely opposite to ARPANETters opinion, which
  were starting to think that UNIX was not a good option. Finally, the development of Berkeley 4.2 version which included
- the TCP/IP hepled DARPA and AT&T to start sharing common opinons. It seemed that anything could go wrong
+ the TCP/IP hepled DARPA and AT&T to start sharing common opinons. It seemed that anything could go wrong.
+ 
+ In 1981, IBM announces a deal with Microsoft to develop its new IBM-PC. According to that, Bill Gates (with IBM consent),
+ bought the rights of QDOS[8] by 50.000$. Microsoft modified it and changed its name by MS-DOS, then Bill Gates asked IBM
+ to allow Microsoft selling MS-DOS separately from the hardware. The later years, Bill Gates got multibillionaire without
+ writting any line of code of the software he was selling. The fame of MS-DOS provoked XENIX to become obosolete, but Gates
+ also monetized this problem by selling the rights of XENIX to SCO. Microsoft was starting to be a real competence for UNIX
+ developers.
+ 
+ In 1982 Sun Microsystems started up with the idea of creating a UNIX machine with built-in networking capacity. With the help
+ of Berkeley and Stanford universities Sun was the best option to distribute UNIX to people. That year, C programming language
+ was beginning to become the most used programming language. Five years later nobody was using assembler but C.
+ 
+ In 1983 there was a fact that seemed not to be important but it meant the beginning of the end for UNIX. DEC cancelled the
+ production of the PDP-10 succesor (Jupiter), this caused that VAX machines running UNIX became the most used Internet machines
+ on those days, this was a small problem compared with the main one. As a consecuence of cancelling Jupiter, an MIT AI Lab's
+ programmer started writing GNU[9], a complete free clone of UNIX. This year was a succes for Sun Microsystems, because AT&T
+ lost again an antitrust case. This caused to broke up with Bell Labs, and as a consecuence the 1958 decree was not a problem
+ anymore. Now that AT&T was able to use Unix as a product, they have decided to sell Unix System V as fast as they could.
  
  
  *1 (Multiplexed Information and Computing Service) was one of the first time-sharing operating systems and it
@@ -79,3 +97,10 @@
  *6 Defense Advanced Research Projects Agency is an agency of the U.S. Department of Defense responsible for the
     development of emerging technologies for use by the military. This agency was in charge of using the ARPANET,
     which was the first approach to what nowadays we know as Internet.
+ *7 UNIX-To-UNIX-Copy was a set of programs and protocols that allowed a computer to execute commands remotely, transfer
+    files or send emails to other computer.
+ *8 Quick and Dirty Operating Sytems was a 16 bits operating system written by Tim Patterson from SCO (Seattle Computer
+    Products) based on CP/M (Control Program/Monitor). The name of the OS had to be changed by 86-DOS when the company
+    started licensing.
+ *9 GNU is a recursive acronym which means "GNU is Not Unix" and was the way its creator used to plead for the free software. 
+    Although it means "GNU is Not Unix" the reality is that is a Unix based OS, but it's free.
