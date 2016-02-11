@@ -84,6 +84,26 @@
  lost again an antitrust case. This caused to broke up with Bell Labs, and as a consecuence the 1958 decree was not a problem
  anymore. Now that AT&T was able to use Unix as a product, they have decided to sell Unix System V as fast as they could.
  
+ The after years were not as profitable as AT&T thought. Due to a hard policy regarding the source code-distribution, with
+ the main objective of earning money, anyone who acquired a bootleg Unix tape would get demanded. Also contributions from
+ universities began to decrease. Unix companies didn't realise that Microsoft was focusing on a more interesting market than
+ minicomputers for engineers and developers, they were focusing on the personal computers. So when Sun Microsystems realised
+ about that it was too late.
+ The problems didn't end up there, the Unix community was divided: the supporters of BSD (programmers and technical people)
+ versus the supporters of System V (people and companies more focused on business). This was called the First Unix Wars.
+ 
+ In 1985, Intel launched its new chip (386) able to address 4 GB and also to run Unix without any problem, it was the first
+ time an Intel processor was capable of that. That was also the year in which Richard Stallman emitted the GNU manifest about
+ free-software. At the beginning people thought it was not a serious thing, but the same year, Stallman released the X system
+ without any cost. Is important to say that it was also the year in which the division of Unix ended up. The result was an
+ intersection of the BSD and the SVR3 (System V Release 3) using the POSIX[10] standard on their cores. 
+ 
+ In 1986, Larry Wall[11] began working on Perl, the first open-source script language. It was also the year that IBM failed
+ at rejecting the new 386 Intel chip choosing instead the less powerful 286. As a consequence, the release of their new PS/2
+ machine was a complete failure. Compaq took advantage of this and released the first 386 machine which can be considered the
+ first PC. Regarding to Stallman, there were some rumours pointing that GNU project could mate with 386 machines, producing
+ cheap Unix workstations.
+ 
  
  *1 (Multiplexed Information and Computing Service) was one of the first time-sharing operating systems and it
     had a great impact in the development of the following operating systems.
@@ -104,3 +124,7 @@
     started licensing.
  *9 GNU is a recursive acronym which means "GNU is Not Unix" and was the way its creator used to plead for the free software. 
     Although it means "GNU is Not Unix" the reality is that is a Unix based OS, but it's free.
+*10 Portable Operating Sytem Interface is a family of standards to mantain the compatibility between Operating Systems.
+    It defines the API.
+*11 Larry Wall is widely known as the creator of Perl, but it also has created other interesting things as the 'patch'
+    command. After graduating he accepted to work for the NASA Jet Propulsion Lab.
