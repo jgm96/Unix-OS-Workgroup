@@ -104,6 +104,45 @@
  first PC. Regarding to Stallman, there were some rumours pointing that GNU project could mate with 386 machines, producing
  cheap Unix workstations.
  
+ The problems of the DEC company became obvious in 1988. That year its CEO Ken Thompson described Unix a 'snake oil' although
+ their PDP-11s ran a variant of Unix. That was because DEC wanted the business to go to its proprietary VMS OS, but they couldn't
+ beat Sun Microsystems and other vendors which offered more powerful low-cost workstations. 1988 was also the starting year of 
+ the second phase of the Unix wars, this was caused because AT&T and Sun allied (they were known as Unix International) to become
+ the most powerful Unix distributive companies, but this alliance were not good new for companies as IBM, DEC or HP (which
+ formed the Open Source Foundation) to defeat Unix International.
+ 
+ Every person related with Unix wished to forget the years from 1989 to 1993. Both Unix wars have weakened the Unix industry which
+ couldn't do anything but see how Microsoft became the most important computing company of those days. Unix 1970s hackers started
+ to get old and to lose their interest on Unix. Although the hardware was cheaper, Unix was still too expensive. People began
+ to realise that IBM's mastery had finished but the Microsoft's one was just starting.
+ 
+ William Jolitz, a computer scientist from Berkeley, started to create a port of BSD for a 386 in 1990, which could mean that Unix
+ luck will change. But this project took more time than expected because Jolitz decided to destroy his work. It is not completely
+ clear why he did this but the most known explanation says that Jolitz wanted to release his code as unencumbered source, but that
+ idea was not the company's one which wanted to use a licensing model. It was finally release in 1992. A year before, a finnish
+ student name Linus Torvald released the first version of the Linux system. His main motivation for creating this system was the
+ high price of Sun's Unix for the universities.
+ 
+ Two years later, the whole Unix world realised how important Linux and open-source BSD distribution were. A lawsuit from AT&T
+ against BSDI[12] caused some Berkeley developers to change to Linux. The founders of the BSDI research laboratory was shutted
+ down as a consecuence of the lawsuit, and also Linux posed as the first in the Unix OS ranking over BSD.
+ 
+ From the beginning, Linux and BSD were contributing highly to the Internet. Both relied on the use of Larry Wall's patch, the
+ use of the email and the Usenet. Also their popularity increased with the growing of the Internet Service Providers and
+ with the creation of the World Wide Web (which increased the market of the PCs including the nontechnical users) on the
+ early 90s.
+ 
+ A result of the mass-marketing of the Internet, was the XFree86 which allowed Linux and BSD to use the GUI (a window-based system)
+ they wanted. In 1993, Linux had a complete GNU toolkit and also access to the Internet and an X GUI, this allowed users
+ to have powerful development tools. An interesting thing about Linux was that its kernel was officially a beta (0.99)
+ and it was cash-free. The awaited dream of a 'cheap Unix system' had become real but it came from an unexpected way. Although
+ Unix users which where dreaming about it were happy about that.
+ 
+ Between 1992 and 2000, there were lots of transactions with the Unix system. First of all, the alliance between AT&T and Sun
+ was broken and the Unix System Labs sold to Novell in 1993. In 1994 AT&T and Novell (which changed the standard on Unix to X/Open)
+ ended up the Unix wars joining the Open Source Foundation. In 1995 SCO bought the rights to the original Unix sources from Novell
+ 
+ 
  
  *1 (Multiplexed Information and Computing Service) was one of the first time-sharing operating systems and it
     had a great impact in the development of the following operating systems.
@@ -127,4 +166,7 @@
 *10 Portable Operating Sytem Interface is a family of standards to mantain the compatibility between Operating Systems.
     It defines the API.
 *11 Larry Wall is widely known as the creator of Perl, but it also has created other interesting things as the 'patch'
-    command. After graduating he accepted to work for the NASA Jet Propulsion Lab.
+    command, a very useful way of sharing files in a easier way. After graduating he accepted to work for the NASA Jet
+    Propulsion Lab.
+*12 Berkeley Software Design Inc. which developed and sold licenses for a variant of the BSD for compatible PC. This company
+    was founded by some members Computer Systems Research Group, from the University of California.
