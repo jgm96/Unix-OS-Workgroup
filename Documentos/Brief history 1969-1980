@@ -1,27 +1,21 @@
- Unix began its life on a scavenged PDP-7 minicomputer, as a platform
- for the Space Travel game and a testbed for Thompson's ideas about operating system design.
+ Unix first run was on a PDP-7 minicomputer, as a platform for the Space Travel game and a testbed for Thompson's ideas
+ about operating system design. The programs that Thompson and Ritchie wrote to support hosting game development
+ on the PDP-7 itself became the core of Unix. The original spelling was 'UNICS' (UNiplexed Information and Computing Service).
+ Unix was very close to be the first system on which a programmer could sit down in front a computer and start creating
+ programs.
  
- The utility programs that Thompson and Ritchie wrote to support hosting game
- development on the PDP-7 itself became the core of Unix. The original spelling was “UNICS”
- (UNiplexed Information and Computing Service).
+ From the beginning, Unix applied a lightweight development and informal methods. While Multics[1] had been written in thousands
+ of pages with lots of technical words and specifications before using it on the hardware, the first Unix code was thought
+ by three people and Ken Thompson, which was also the one who wrote it in just wo days on a obsolete machine designed to be
+ the graphic terminal of a real computer.
+ In 1971 was the first job for Unix, it was to support a very simple word processor at the Bell Laboratories. It can be considered
+ the ancestor of the nroff[2] tool. Due to the success, the company decided to buy a PDP-11, which was more powerful, to continue
+ with the development of more tools.
  
- Unix was very close to being the first system under which a programmer could sit down
- directly at a machine and compose programs on the fly, exploring possibilities and testing while composing.
- 
- The Unix tradition of lightweight development and informal methods also began at its beginning.
- While Multics[1] had been a large project with thousands of pages of technical specifications written before the hardware
- arrived, the first running Unix code was brainstormed by three people and implemented by Ken Thompson in two days
- on an obsolete machine that had been designed to be a graphics terminal for a ‘real’ computer.
- 
- Unix's first real job, in 1971, was to support what would now be called word processing for the Bell Labs patent department;
- the first Unix application was the ancestor of the nroff[2] text formatter.
- This project justified the purchase of a PDP-11, a much more capable minicomputer.
- 
- The original Unix operating system was written in assembler, and the applications in a mix of assembler
- and an interpreted language called B, which had the virtue that it was small enough to run on the PDP-7.
- But B was not powerful enough for systems programming, so Dennis Ritchie added data types and structures to it.
- The resulting C language evolved from B beginning in 1971; in 1973 Thompson and Ritchie finally
- succeeded in rewriting Unix in their new language.
+ Unix was at first written in assembler and its applications in a mix of assembler and a language called B (predecessor of C)
+ which was small enough to run on the PDP-7. Workers on Bell Labs realised B was not enough powerful for systems programming
+ so Dennis Ritchie decided to change it adding structures and data types to the language. The result was the language called C
+ which was finished in 1971. In 1973, Ritchie and Thompson had rewritten their whole OS to C.
  
  In the following years, UNIX was starting to get known especially due to a report published in the Communications of the ACM
  magazine[3] in 1974. It defined UNIX as "a general-purpose, multi-user, interactive operating system" and it offered "a number of
@@ -141,6 +135,9 @@
  Between 1992 and 2000, there were lots of transactions with the Unix system. First of all, the alliance between AT&T and Sun
  was broken and the Unix System Labs sold to Novell in 1993. In 1994 AT&T and Novell (which changed the standard on Unix to X/Open)
  ended up the Unix wars joining the Open Source Foundation. In 1995 SCO bought the rights to the original Unix sources from Novell
+ and in 1996 OSF and X/Open joined into a single Unix standard. In 1998 IBM, Intel and SCO announced the Monterrey project in a 
+ effort to merge into a big one all the Unix proprietaries. It was completed on 2000 when SCO sold  UnixWare to Caldera (a Linux
+ distributor). This can be marked as the end of the Unix period.
  
  
  
